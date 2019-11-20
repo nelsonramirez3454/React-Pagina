@@ -83,8 +83,8 @@ class Badges extends  React.Component{
         return (
             <React.Fragment>
                 <div className="Badges">
-                    <div className="Badges_hero">
-                        <div className="Badges_container">
+                    <div className="Badges__hero">
+                        <div className="Badges__container">
                             <img className="Badges_cong-logo" src={confLogo} alt="Conf Logo"/>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ class Badges extends  React.Component{
 
                 <div className="Badge__container">
                     <div className="Badges__buttons">
-                       <Link to="/Badges/new" className="btn btn primary"></Link>
+                       <Link to="/Badges/new" className="btn btn-primary">New Badge</Link>
                     </div>
 
                     <div className="Badges__list">
